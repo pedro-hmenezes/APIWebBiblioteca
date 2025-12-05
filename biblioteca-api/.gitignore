@@ -1,0 +1,10 @@
+# Dependências (não subir)
+node_modules/
+
+# Arquivos de banco de dados local (não subir)
+*.sqlite
+
+# Arquivos de log e sistema
+*.log
+.DS_Store
+dist/

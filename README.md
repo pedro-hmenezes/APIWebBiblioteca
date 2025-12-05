@@ -71,84 +71,14 @@ Certifique-se de ter o **Node.js** instalado em sua máquina.
 
 Aqui estão as rotas disponíveis para teste (via Postman ou Insomnia):
 
-|
+| Método | Rota             | Descrição                  |
+|--------|------------------|----------------------------|
+| POST   | /api/livros      | Cria um novo livro.        |
+| GET    | /api/livros      | Lista todos os livros.     |
+| GET    | /api/livros/{id} | Busca um livro pelo ID.    |
+| PUT    | /api/livros/{id} | Atualiza um livro existente. |
+| DELETE | /api/livros/{id} | Deleta um livro.          |
 
-Método
-
- |
-
-Rota
-
- |
-
-Descrição
-
- |
-|
-
-`POST`
-
- |
-
-`/api/livros`
-
- |
-
-Cria um novo livro.
-
- |
-|
-
-`GET`
-
- |
-
-`/api/livros`
-
- |
-
-Lista todos os livros.
-
- |
-|
-
-`GET`
-
- |
-
-`/api/livros/{id}`
-
- |
-
-Busca um livro pelo ID.
-
- |
-|
-
-`PUT`
-
- |
-
-`/api/livros/{id}`
-
- |
-
-Atualiza um livro existente.
-
- |
-|
-
-`DELETE`
-
- |
-
-`/api/livros/{id}`
-
- |
-
-Deleta um livro.
-
- |
 
 ### Exemplo de JSON para Criação (POST)
 

@@ -2,21 +2,21 @@ import { Entity, PrimaryGeneratedColumn, Column } from "typeorm";
 
 @Entity()
 export class Livro {
-    @PrimaryGeneratedColumn()
-    id: number;
-    
-    @Column({ type: "text" })
-    titulo: string;
-    
-    @Column({ type: "text" })
-    autor: string;
+  @PrimaryGeneratedColumn()
+  id: number;
 
-    @Column({ type: "text" })
-    isbn: string;
+  @Column({ type: "text" })
+  titulo: string;
 
-    @Column({type: "integer"})
-    anoPublicacao: number;
+  @Column({ type: "text" })
+  autor: string;
 
-    @Column({type: "boolean", default: true })
-    disponivel: boolean;
+  @Column({ type: "text" })
+  isbn: string;
+
+  @Column({ type: "integer" })
+  anoPublicacao: number;
+
+  @Column({ type: "boolean", default: true })
+  disponivel: boolean;
 }

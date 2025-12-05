@@ -20,3 +20,4 @@ export class Livro {
   @Column({ type: "boolean", default: true })
   disponivel: boolean;
 }
+
